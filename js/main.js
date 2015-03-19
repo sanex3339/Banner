@@ -28,7 +28,10 @@ window.onorientationchange = orientationchange;
 function load()
 {
 	is_load = true;
-	elemTransform(banner);
+	timeout = setTimeout(function()
+	{
+		elemTransform(banner);
+	}, timeoutValue);
 }
 
 function resize()
