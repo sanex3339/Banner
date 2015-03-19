@@ -34,6 +34,9 @@ body
 
 .banner-transition
 {
-    -webkit-transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s; /
+    -webkit-transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+    -moz-transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+    -ms-transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
+    -o-transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
     transition: width 0.5s, height 0.5s, left 0.5s, top 0.5s;
 }
