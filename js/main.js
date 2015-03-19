@@ -31,7 +31,7 @@ function load()
 	timeout = setTimeout(function()
 	{
 		elemTransform(banner);
-	}, timeoutValue);
+	}, 50);
 }
 
 function resize()
